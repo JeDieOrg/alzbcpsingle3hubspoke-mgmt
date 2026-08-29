@@ -1,0 +1,28 @@
+{
+    "id": "/providers/Microsoft.Management/managementGroups/alz/providers/Microsoft.Authorization/roleDefinitions/8b918d15-d799-41bb-b5fd-22f4b98738ac",
+    "name": "8b918d15-d799-41bb-b5fd-22f4b98738ac",
+    "properties": {
+        "assignableScopes": [
+            "/providers/Microsoft.Management/managementGroups/alz"
+        ],
+        "description": "Contributor role granted for application/operations team at resource group level",
+        "permissions": [
+            {
+                "actions": [
+                    "*"
+                ],
+                "dataActions": [],
+                "notActions": [
+                    "Microsoft.Authorization/*/write",
+                    "Microsoft.Network/publicIPAddresses/write",
+                    "Microsoft.Network/virtualNetworks/write",
+                    "Microsoft.KeyVault/locations/deletedVaults/purge/action"
+                ],
+                "notDataActions": []
+            }
+        ],
+        "roleName": "Application-Owners (alz)",
+        "type": "CustomRole"
+    },
+    "type": "Microsoft.Authorization/roleDefinitions"
+}
