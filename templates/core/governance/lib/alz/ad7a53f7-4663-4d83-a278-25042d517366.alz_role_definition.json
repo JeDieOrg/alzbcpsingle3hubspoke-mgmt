@@ -1,0 +1,30 @@
+{
+    "id": "/providers/Microsoft.Management/managementGroups/alz/providers/Microsoft.Authorization/roleDefinitions/ad7a53f7-4663-4d83-a278-25042d517366",
+    "name": "ad7a53f7-4663-4d83-a278-25042d517366",
+    "properties": {
+        "assignableScopes": [
+            "/providers/Microsoft.Management/managementGroups/alz"
+        ],
+        "description": "Enterprise-scale custom Role Definition. Grants full access to manage Virtual Network subnets, but no other network resources.",
+        "permissions": [
+            {
+                "actions": [
+                    "Microsoft.Authorization/*/read",
+                    "Microsoft.Insights/alertRules/*",
+                    "Microsoft.ResourceHealth/availabilityStatuses/read",
+                    "Microsoft.Resources/deployments/*",
+                    "Microsoft.Resources/subscriptions/resourceGroups/read",
+                    "Microsoft.Support/*",
+                    "Microsoft.Network/*/read",
+                    "Microsoft.Network/virtualNetworks/subnets/*"
+                ],
+                "dataActions": [],
+                "notActions": [],
+                "notDataActions": []
+            }
+        ],
+        "roleName": "Network-Subnet-Contributor (alz)",
+        "type": "CustomRole"
+    },
+    "type": "Microsoft.Authorization/roleDefinitions"
+}

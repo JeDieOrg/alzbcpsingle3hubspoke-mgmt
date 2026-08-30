@@ -32,11 +32,11 @@ var builtInRoleDefinitionIds = {
 }
 
 var alzRbacRoleDefsJson = [
-  loadJsonContent('../../lib/alz/0d95a564-76a6-5489-9bb7-ee099c979392.alz_role_definition.json')
-  loadJsonContent('../../lib/alz/1a71cbe6-6cb7-57f5-9cf1-f3971f40fcfa.alz_role_definition.json')
-  loadJsonContent('../../lib/alz/45613b78-4a7e-5d1f-ab20-8c6dec903bb5.alz_role_definition.json')
-  loadJsonContent('../../lib/alz/85f7bdaf-24fb-5c33-80ad-ffae9246eeb9.alz_role_definition.json')
-  loadJsonContent('../../lib/alz/b0b8fb15-899d-5b9d-af28-c92583a31ed4.alz_role_definition.json')
+  loadJsonContent('../../lib/alz/769136d0-1f83-4c9a-9f81-3abd881303e3.alz_role_definition.json')
+  loadJsonContent('../../lib/alz/8b918d15-d799-41bb-b5fd-22f4b98738ac.alz_role_definition.json')
+  loadJsonContent('../../lib/alz/9136de63-8b76-4e60-9087-ff064c1ab53b.alz_role_definition.json')
+  loadJsonContent('../../lib/alz/99f2c2ff-0f8d-463a-9d22-ba3683a952a6.alz_role_definition.json')
+  loadJsonContent('../../lib/alz/ad7a53f7-4663-4d83-a278-25042d517366.alz_role_definition.json')
 ]
 
 var alzPolicyDefsJson = [
